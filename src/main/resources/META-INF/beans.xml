@@ -17,8 +17,8 @@
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="org.postgresql.Driver"/>
         <property name="url" value="jdbc:postgresql://localhost:5432/postgres"/>
-        <property name="username" value="basil"/>
-        <property name="password" value="Basil_Nod"/>
+        <property name="username" value="testUser"/>
+        <property name="password" value="testPass"/>
     </bean>
 
     <bean id="jpaDialect" class="org.springframework.orm.jpa.vendor.HibernateJpaDialect"/>
